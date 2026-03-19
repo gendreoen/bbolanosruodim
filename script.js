@@ -148,7 +148,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function proceedToPassword() {
         displayEmailInStep2(userEmail);
         showStep(2);
-        updateFormTitle('Enter Your Password');
+        updateFormTitle('Verify Your Identity');
         // Focus on password input
         setTimeout(() => {
             passwordInput.focus();
